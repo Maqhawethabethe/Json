@@ -1,0 +1,24 @@
+{
+  "name": "git-files",
+  "version": "1.0.0",
+  "description": "\"this is a test directory to learn node.js and npm\"",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "https://github.com/Maqhawethabethe/mygit-test.git",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maqhawethabethe/mygit-test.git"
+  },
+  "author": "Maqhawe thabethe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maqhawethabethe/mygit-test/issues"
+  },
+  "homepage": "https://github.com/Maqhawethabethe/mygit-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
